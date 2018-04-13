@@ -20,5 +20,5 @@ from django.contrib import admin
 
 urlpatterns = [
    url(r'^admin/', admin.site.urls),
-   url(r'^', include('helloworld.urls')), 
+   url(r'^', include('hellfire-club.urls')),
 ] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
