@@ -21,7 +21,7 @@ The site does not yet have...
 * a custom URL; DNS settings must be adjusted in the dashboard of your URL provider (recommended: GoDaddy).
 * AWS IAM permissions that transfer everything on Amazon to you; Amazon is the host.
 * this code should live in *your* own Github account, not mine.
-
+ 
 What's Here
 -----------
 
