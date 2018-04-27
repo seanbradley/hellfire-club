@@ -1,8 +1,26 @@
-Welcome to the AWS CodeStar sample web application
+Welcome to the Hellfire Club code repository
 ==================================================
 
-This sample code helps get you started with a simple Django web application
-deployed by AWS Elastic Beanstalk.
+Hellfire Club is a Django web application living on an Amazon EC2 instance and deployed by AWS Elastic Beanstalk.
+
+What does that mean? It means the site is infinitely extensible, scalable, and all the assets that are part and parcel
+of the site are recoverable and transferable. The code, the logo, the pictures, the copywriting--you keep them all here,
+in this repository, which works like a vault. Changes to the code are pushed up from the developer's local machine to the
+repository and are then automagically and instantly deployed on a machine you lease from Amazon. You always have full 
+access to any part of the stack...and each and every little change made to the site by any developer is immediately deployed. 
+If you lose your developer, you don't lose your site.
+
+Django is the probably the leading website framework for purpose-built, custom e-commerce sites. It has a steeper learning 
+curve than Wordpress, but runs on Python--which is more readable and more easily maintained than PHP (used by Wordpress).
+Python developers familiar with Django are just as easy to find as PHP developers familiar with Wordpress. The same 
+cannot be said about frameworks like Magneto, Joomla, etc.
+
+The site does not yet have...
+
+* any custom styling and/or artwork; a style guide is necessary to instruct your developer.
+* a custom URL; DNS settings must be adjusted in the dashboard of your URL provider (recommended: GoDaddy).
+* AWS IAM permissions that transfer everything on Amazon to you; Amazon is the host.
+* this code should live in *your* own Github account, not mine.
 
 What's Here
 -----------
@@ -15,7 +33,7 @@ This sample includes:
   SECRET_KEY. Before running in a production environment, you should replace this
   application key with one you generate
   (see https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/#secret-key for details)
-* helloworld/ - this directory contains your Django application files
+* hellfire-club/ - this directory contains your Django application files
 * manage.py - this Python script is used to start your Django web application
 * .ebextensions/ - this directory contains the Django configuration file that
   allows AWS Elastic Beanstalk to deploy your Django application
@@ -67,7 +85,7 @@ What Do I Do Next?
 
 Once you have a virtual environment running, you can start making changes to
 the sample Django web application. We suggest making a small change to
-/helloworld/templates/index.html first, so you can see how changes pushed to
+/hellfire-club/templates/index.html first, so you can see how changes pushed to
 your project's repository are automatically picked up and deployed to the Amazon EC2
 instance by AWS Elastic Beanstalk. (You can watch the progress on your project dashboard.)
 Once you've seen how that works, start developing your own code, and have fun!

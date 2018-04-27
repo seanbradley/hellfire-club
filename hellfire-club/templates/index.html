@@ -5,42 +5,33 @@
     <meta charset="utf-8">
     <title>Hellfire Club</title>
     <meta name="description" content="" />
-    <link href="{% static "helloworld/css/styles.css" %}" rel="stylesheet">
-    <link href="{% static "helloworld/css/gradients.css" %}" rel="stylesheet">
+    <link href="{% static "hellfire-club/css/styles.css" %}" rel="stylesheet">
+    <link href="{% static "hellfire-club/css/gradients.css" %}" rel="stylesheet">
 </head>
 
 <body class="">
     <div class="wrapper">
-        <div class="graphics">
-            <div class="tower">
-                <img src="{% static "helloworld/img/ahnold.jpg" %}">
-            </div>
-        </div>
-
         <header>
-            <nav class="website-nav">
+            <nav>
                 <ul>
-                    <li><a class="home-link" href="https://aws.amazon.com/">Home</a></li>
-                    <li><a href="https://www.facebook.com/cyrus.moghadassi">About Big Cyru</a></li>
-                    <li><a href="https://aws.amazon.com/solutions/">Services</a></li>
-                    <li><a href="https://aws.amazon.com/contact-us/">Contact</a></li>
+                    <li><a class="home-link" href="http://hellfire-clubapp.8qm6czuupn.us-west-2.elasticbeanstalk.com">Home</a></li>
+                    <li><a href="https://www.facebook.com/cyrus.moghadassi">About Big Cyrus</a></li>
+                    <li><a href="https://www.facebook.com/cyrus.moghadassi/">Services</a></li>
+                    <li><a href="https://www.facebook.com/cyrus.moghadassi/">Contact</a></li>
                 </ul>
             </nav>
         </header>
-
-        <div class="message">
-            <a class="twitter-link" href="http://twitter.com/home/?status=I%20created%20a%20project%20with%20AWS%20CodeStar!%20%23AWS%20%23AWSCodeStar%20https%3A%2F%2Faws.amazon.com%2Fcodestar"><img src="{% static "helloworld/img/tweet.svg" %}" /></a>
-            <div class="text">
-                <h1>Welcome to the Hellfire Club</h1>
-                <h2>Abandon hope all yee who enter here!</h2>
-            </div>
+        <div class="ahnold">
+            <h1>Welcome to the Hellfire Club</h1>
+            <h2>Abandon hope all yee who enter here!</h2>
         </div>
+        <img src="{% static "hellfire-club/img/ahnold.jpg" %}">
     </div>
     <footer>
-        <p class="footer-contents">Designed and developed with <a href="https://aws.amazon.com/careers/devtools-jobs/">♥</a> in Seattle.</p>
+        <p class="footer-contents">Designed and developed with <a href="https://blogblimp.com/">♥</a> in Amazon's cloud.</p>
     </footer>
 
-    <! script src="{% static "helloworld/js/set-background.js" %}"><! /script>
+    <! script src="{% static "hellfire-club/js/set-background.js" %}"><! /script>
 </body>
 
 </html>

@@ -1,7 +1,7 @@
 from django.test import TestCase, RequestFactory
 from .views import HomePageView
 
-class HelloWorldTestCase(TestCase):
+class HellfireClubTestCase(TestCase):
 
     def setUp(self):
         self.factory = RequestFactory()

@@ -14,6 +14,7 @@ html {
 }
 body {
   font-size: 1.8rem;
+  position: relative;
 }
 h1, h2, h3 {
   font-weight: normal;
@@ -32,6 +33,10 @@ a {
   height: 100%;
   margin: 0 auto -7rem;
   position: relative;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0 -170px;
+
 }
 footer, .push {
   height: 7rem;
@@ -58,6 +63,16 @@ footer .footer-contents {
   color: white;
   text-decoration: none;
 }
+.ahnold {
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -70px 0 0 -170px;
+}
+
 .home-link {
   font-weight: bold;
 }
